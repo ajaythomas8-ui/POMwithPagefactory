@@ -16,7 +16,7 @@ public class RegisterTest extends BaseClass {
     {
         ob=new RegisterPage(driver);
         ob.loginclick();
-        ob.registration("ajay","johndoe123@gmail.com","123456","123456","1234567890");
+        ob.registration("ajay","amal@gmail.com","123456","123456","1234567890");
       
         ob.signupclick();
         
