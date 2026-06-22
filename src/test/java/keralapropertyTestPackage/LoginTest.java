@@ -13,7 +13,7 @@ public class LoginTest extends BaseClass {
         LoginPage ob=new LoginPage(driver);
         Thread.sleep(3000);
         ob.testing();
-        ob.start("amal@gmail.com","123456");
+        ob.start("eric@gmail.com","123456");
         ob.login();
        
     }
